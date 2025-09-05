@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPatients, addPatient, fetchLegacyPatients } from "./patientsSlice";
 import { logout } from "../auth/authSlice";
+import PatientList from "../../components/PatientList";
+import PatientForm from "../../components/PatientForm";
 
 export default function PatientsList() {
   const dispatch = useDispatch();
@@ -77,22 +79,7 @@ export default function PatientsList() {
 
       {/* Formulário */}
       <div className="section-box">
-        <form onSubmit={handleSubmit} className="form-group">
-          <input
-            value={form.nome}
-            onChange={(e) => setForm({ ...form, nome: e.target.value })}
-            placeholder="Nome"
-            required
-            type="text"
-          />
-          <input
-            type="date"
-            value={form.dataNascimento}
-            onChange={(e) => setForm({ ...form, dataNascimento: e.target.value })}
-            required
-          />
-          <button type="submit">Cadastrar</button>
-        </form>
+        <PatientForm form={form} setForm={setForm} onSubmit={handleSubmit} />
       </div>
 
       {/* Lista de atuais */}
@@ -100,24 +87,12 @@ export default function PatientsList() {
       {loading ? (
         <p>Carregando...</p>
       ) : (
-        <ul>
-          {list.map((p) => (
-            <li key={p.id}>
-              {p.nome} - {new Date(p.dataNascimento).toLocaleDateString()}
-            </li>
-          ))}
-        </ul>
+        <PatientList patients={list} />
       )}
 
       {/* Lista de legado */}
       <h2>Pacientes do Legado</h2>
-      <ul>
-        {legacy.map((p) => (
-          <li key={p.id}>
-            {p.nome} - {new Date(p.dataNascimento).toLocaleDateString()}
-          </li>
-        ))}
-      </ul>
+      <PatientList patients={legacy} />
     </div>
   );
 }

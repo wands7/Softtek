@@ -4,16 +4,32 @@ using SofttekChallenger.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using SofttekChallenger.Services;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace SofttekChallenger.Tests
 {
     public class PatientsControllerTests
     {
+        private PatientsController CreateControllerWithValidModelState()
+        {
+            var controller = new PatientsController();
+            controller.ModelState.Clear();
+            return controller;
+        }
+
+        private PatientsController CreateControllerWithInvalidModelState()
+        {
+            var controller = new PatientsController();
+            controller.ModelState.AddModelError("Nome", "Nome é obrigatório");
+            return controller;
+        }
+
         [Fact]
         public void Get_ReturnsAllPatients_WhenNomeIsNull()
         {
             // Arrange
-            var controller = new PatientsController();
+            var controller = CreateControllerWithValidModelState();
 
             // Act
             var result = controller.Get(null) as OkObjectResult;
@@ -29,7 +45,7 @@ namespace SofttekChallenger.Tests
         public void Get_ReturnsFilteredPatients_WhenNomeIsProvided()
         {
             // Arrange
-            var controller = new PatientsController();
+            var controller = CreateControllerWithValidModelState();
 
             // Act
             var result = controller.Get("Maria") as OkObjectResult;
@@ -46,7 +62,7 @@ namespace SofttekChallenger.Tests
         public void Post_ReturnsBadRequest_WhenNomeIsEmpty()
         {
             // Arrange
-            var controller = new PatientsController();
+            var controller = CreateControllerWithInvalidModelState();
             var patient = new Patient { Nome = "", DataNascimento = DateTime.Now };
 
             // Act
@@ -60,7 +76,7 @@ namespace SofttekChallenger.Tests
         public void Post_ReturnsCreatedAtAction_WhenValidPatient()
         {
             // Arrange
-            var controller = new PatientsController();
+            var controller = CreateControllerWithValidModelState();
             var patient = new Patient { Nome = "Teste", DataNascimento = DateTime.Now };
 
             // Act

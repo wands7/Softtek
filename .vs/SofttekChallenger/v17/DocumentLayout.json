@@ -49,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger.tests\\patienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|solutionrelative:softtekchallenger.tests\\patienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433FD4C5-1471-4190-895F-9C41CB9F0FE3}|SofttekChallenger\\Backend.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433FD4C5-1471-4190-895F-9C41CB9F0FE3}|SofttekChallenger\\Backend.csproj|solutionrelative:softtekchallenger\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,6 +114,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PacienteService.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Services\\PacienteService.cs",
+              "RelativeDocumentMoniker": "SofttekChallenger\\Services\\PacienteService.cs",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Services\\PacienteService.cs",
+              "RelativeToolTip": "SofttekChallenger\\Services\\PacienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T02:07:34.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "SofttekChallenger.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj",
@@ -152,7 +169,7 @@
               "RelativeDocumentMoniker": "SofttekChallenger.Tests\\PatientsControllerTests.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\PatientsControllerTests.cs",
               "RelativeToolTip": "SofttekChallenger.Tests\\PatientsControllerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T01:25:03.906Z",
               "EditorCaption": ""
@@ -165,7 +182,7 @@
               "RelativeDocumentMoniker": "SofttekChallenger\\Controllers\\PatientsController.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Controllers\\PatientsController.cs",
               "RelativeToolTip": "SofttekChallenger\\Controllers\\PatientsController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAIBZwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAIBZwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T13:26:01.141Z",
               "EditorCaption": ""
@@ -238,9 +255,10 @@
               "RelativeDocumentMoniker": "SofttekChallenger\\Models\\Patient.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Models\\Patient.cs",
               "RelativeToolTip": "SofttekChallenger\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAEBUwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:27:20.206Z"
+              "WhenOpened": "2025-09-04T03:27:20.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

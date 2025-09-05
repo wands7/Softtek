@@ -116,6 +116,9 @@
         "additionalProperties": false
       },
       "Patient": {
+        "required": [
+          "nome"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -123,8 +126,8 @@
             "format": "int32"
           },
           "nome": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "dataNascimento": {
             "type": "string",
