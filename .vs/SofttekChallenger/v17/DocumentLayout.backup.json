@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\elli0t\\source\\repos\\Softtek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger.tests\\patientscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|solutionrelative:softtekchallenger.tests\\patientscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{433FD4C5-1471-4190-895F-9C41CB9F0FE3}|SofttekChallenger\\Backend.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{433FD4C5-1471-4190-895F-9C41CB9F0FE3}|SofttekChallenger\\Backend.csproj|solutionrelative:softtekchallenger\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,6 +37,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{433FD4C5-1471-4190-895F-9C41CB9F0FE3}|SofttekChallenger\\Backend.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{433FD4C5-1471-4190-895F-9C41CB9F0FE3}|SofttekChallenger\\Backend.csproj|solutionrelative:softtekchallenger\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger.tests\\softtekchallenger.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|solutionrelative:softtekchallenger.tests\\softtekchallenger.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger.tests\\legacypatienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|solutionrelative:softtekchallenger.tests\\legacypatienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|c:\\users\\elli0t\\source\\repos\\softtek\\softtekchallenger.tests\\patienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8FA1D-B692-43DA-8B05-FB66BAA651E1}|SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj|solutionrelative:softtekchallenger.tests\\patienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,20 +110,69 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SofttekChallenger.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj",
+              "RelativeDocumentMoniker": "SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj",
+              "RelativeToolTip": "SofttekChallenger.Tests\\SofttekChallenger.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-05T01:29:28.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LegacyPatientTests.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\LegacyPatientTests.cs",
+              "RelativeDocumentMoniker": "SofttekChallenger.Tests\\LegacyPatientTests.cs",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\LegacyPatientTests.cs",
+              "RelativeToolTip": "SofttekChallenger.Tests\\LegacyPatientTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T01:25:07.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientTests.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\PatientTests.cs",
+              "RelativeDocumentMoniker": "SofttekChallenger.Tests\\PatientTests.cs",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\PatientTests.cs",
+              "RelativeToolTip": "SofttekChallenger.Tests\\PatientTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T01:25:06.055Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PatientsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\PatientsControllerTests.cs",
+              "RelativeDocumentMoniker": "SofttekChallenger.Tests\\PatientsControllerTests.cs",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger.Tests\\PatientsControllerTests.cs",
+              "RelativeToolTip": "SofttekChallenger.Tests\\PatientsControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T01:25:03.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PatientsController.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "SofttekChallenger\\Controllers\\PatientsController.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Controllers\\PatientsController.cs",
               "RelativeToolTip": "SofttekChallenger\\Controllers\\PatientsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvy4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAIBZwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T13:26:01.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SofttekChallenger\\Controllers\\AuthController.cs",
@@ -119,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Backend.csproj",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Backend.csproj",
               "RelativeDocumentMoniker": "SofttekChallenger\\Backend.csproj",
@@ -131,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Program.cs",
               "RelativeDocumentMoniker": "SofttekChallenger\\Program.cs",
@@ -143,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\appsettings.json",
               "RelativeDocumentMoniker": "SofttekChallenger\\appsettings.json",
@@ -155,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LegacyPatient.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Models\\LegacyPatient.cs",
               "RelativeDocumentMoniker": "SofttekChallenger\\Models\\LegacyPatient.cs",
@@ -167,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "SofttekChallenger\\Models\\Patient.cs",
@@ -179,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "legacy-patients.json",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Softtek\\SofttekChallenger\\legacy-patients.json",
               "RelativeDocumentMoniker": "SofttekChallenger\\legacy-patients.json",

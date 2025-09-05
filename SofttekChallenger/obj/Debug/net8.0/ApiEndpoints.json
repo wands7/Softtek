@@ -18,7 +18,7 @@
   {
     "ContainingType": "SofttekChallenger.Controllers.PatientsController",
     "Method": "GetLegacy",
-    "RelativePath": "api/legacy/Patients",
+    "RelativePath": "api/legacy/pacientes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "SofttekChallenger.Controllers.PatientsController",
     "Method": "Get",
-    "RelativePath": "api/Patients",
+    "RelativePath": "api/pacientes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,13 +44,13 @@
   {
     "ContainingType": "SofttekChallenger.Controllers.PatientsController",
     "Method": "Post",
-    "RelativePath": "api/Patients",
+    "RelativePath": "api/pacientes",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "novoPatitent",
+        "Name": "novoPaciente",
         "Type": "SofttekChallenger.Models.Patient",
         "IsRequired": true
       }

@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/Patients": {
+    "/api/pacientes": {
       "get": {
         "tags": [
           "Patients"
@@ -86,7 +86,7 @@
         }
       }
     },
-    "/api/legacy/Patients": {
+    "/api/legacy/pacientes": {
       "get": {
         "tags": [
           "Patients"

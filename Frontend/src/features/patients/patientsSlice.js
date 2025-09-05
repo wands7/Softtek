@@ -2,28 +2,32 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import api from "../../api/axios";
 
 // Buscar pacientes normais
+
+// GET /api/pacientes?nome=<texto>
 export const fetchPatients = createAsyncThunk(
   "patients/fetchPatients",
   async (nome = "") => {
-    const response = await api.get(`/patients?nome=${nome}`);
+    const response = await api.get(`/pacientes?nome=${nome}`);
     return response.data;
   }
 );
 
-// Adicionar paciente
+
+// POST /api/pacientes
 export const addPatient = createAsyncThunk(
   "patients/addPatient",
   async (patient) => {
-    const response = await api.post("/patients", patient);
+    const response = await api.post("/pacientes", patient);
     return response.data;
   }
 );
 
-// Buscar pacientes do legado
+
+// GET /api/legacy/pacientes
 export const fetchLegacyPatients = createAsyncThunk(
   "patients/fetchLegacyPatients",
   async () => {
-  const response = await api.get("/legacy/Patients"); 
+    const response = await api.get("/legacy/pacientes");
     return response.data;
   }
 );
