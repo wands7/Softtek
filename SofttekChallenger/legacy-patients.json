@@ -1,0 +1,12 @@
+[
+  {
+    "codigo": 101,
+    "nomeCompleto": "Ana Costa",
+    "dtNasc": "1992-07-15"
+  },
+  {
+    "codigo": 102,
+    "nomeCompleto": "Carlos Oliveira",
+    "dtNasc": "1988-11-03"
+  }
+]
